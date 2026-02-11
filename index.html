@@ -1,29 +1,32 @@
 <html>
-    <head>
-        <!-- <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet"> -->
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div>
-                <h1>HOME</h1>
-                <h1 id="home-score">0</h1>
-                <div class="button-container">
-                    <button onclick="plus1ScoreHome()">+1</button>
-                    <button onclick="plus2ScoreHome()">+2</button>
-                    <button onclick="plus3ScoreHome()">+3</button>
-                </div>
-            </div>
-            <div>
-                <h1>GUEST</h1>
-                <h1 id="guest-score">0</h1>
-                <div class="button-container">
-                    <button onclick="plus1ScoreGuest()">+1</button>
-                    <button onclick="plus2ScoreGuest()">+2</button>
-                    <button onclick="plus3ScoreGuest()">+3</button>
-                </div>
+
+<head>
+    <!-- <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet"> -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>HOME</h1>
+            <h1 id="home-score">0</h1>
+            <div class="button-container">
+                <button onclick="plus1ScoreHome()">+1</button>
+                <button onclick="plus2ScoreHome()">+2</button>
+                <button onclick="plus3ScoreHome()">+3</button>
             </div>
         </div>
-        <script src="index.js"></script>
-    </body>
+        <div>
+            <h1>AWAY</h1>
+            <h1 id="guest-score">0</h1>
+            <div class="button-container">
+                <button onclick="plus1ScoreGuest()">+1</button>
+                <button onclick="plus2ScoreGuest()">+2</button>
+                <button onclick="plus3ScoreGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
